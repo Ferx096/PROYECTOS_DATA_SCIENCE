@@ -1,6 +1,7 @@
 # ![📊](https://img.icons8.com/fluency/48/000000/data.png) **PROYECTOS DE DATA SCIENCE**
 
 ¡Bienvenido a mi repositorio de GitHub! 
+
 En este espacio se encuentra la colección de mis proyectos públicos enfocados en cada pilar de la ciencia de datos, desarrollados con diversas herramientas y técnicas. Los proyectos están organizados en carpetas temáticas, para facilitar su exploración y comprensión.
 
 **1. ESTRATEGIA DE VICTORIA EN ELECCIONES DE LA INDIA-2024:** [Ir al proyecto](https://github.com/Ferx096/PROYECTOS_DATA_SCIENCE/tree/master/ESTRATEGIA_VICTORIA_ELECTORAL_INDIA_2024)
@@ -20,8 +21,8 @@ Apasionado por la ciencia de datos, siempre en busca de nuevas tecnologías y co
 ## **LICENCIA**
 Este repositorio utiliza datos de uso público y está bajo la licencia MIT.
 
-## ![📞](https://img.icons8.com/fluency/48/000000/phone.png) **CONTACTO**:
+## ![📞]**CONTACTO**:
 Para consultas, colaboraciones o sugerencias, puedes contactarme a través de:
 - [LinkedIn](https://www.linkedin.com/in/fernando-cabrera-barranzuela/)
 - [GitHub](https://github.com/Ferx096)
-- [Gmail] : fernandocabrerabrz@gmail.com
+- Gmail : fernandocabrerabrz@gmail.com
