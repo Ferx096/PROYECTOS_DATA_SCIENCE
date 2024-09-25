@@ -3,7 +3,7 @@
 ¡Bienvenido a mi repositorio de GitHub! 
 En este espacio se encuentra la colección de mis proyectos públicos enfocados en cada pilar de la ciencia de datos, desarrollados con diversas herramientas y técnicas. Los proyectos están organizados en carpetas temáticas, para facilitar su exploración y comprensión.
 
-### ![🇮🇳](https://img.icons8.com/color/48/000000/india.png) **ESTRATEGIA DE VICTORIA EN ELECCIONES DE LA INDIA-2024:** [Ver](https://github.com/Ferx096/PROYECTOS_DATA_SCIENCE/tree/master/ESTRATEGIA_VICTORIA_ELECTORAL_INDIA_2024)
+### ![🇮🇳](https://img.icons8.com/color/48/000000/india.png) **ESTRATEGIA DE VICTORIA EN ELECCIONES DE LA INDIA-2024:** [Ir al proyecto](https://github.com/Ferx096/PROYECTOS_DATA_SCIENCE/tree/master/ESTRATEGIA_VICTORIA_ELECTORAL_INDIA_2024)
 Este proyecto se enfoca en un **Análisis Exploratorio de Datos (EDA)** extenso y detallado, ya que sabemos que la raíz de todo modelo, predicción o trabajo de un científico de datos está en un excelente EDA. Para este proyecto, se usaron múltiples librerías de visualización y análisis, además de una revisión bibliográfica profunda, lo que fundamenta cada decisión en el proceso de limpieza y transformación de los datos.
 
 #### Descripción:
