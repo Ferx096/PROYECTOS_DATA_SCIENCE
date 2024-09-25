@@ -1,4 +1,4 @@
-# ![📊](https://img.icons8.com/fluency/48/000000/data.png) **PROYECTOS DE DATA SCIENCE**
+# 📊**PROYECTOS DE DATA SCIENCE**
 
 ¡Bienvenido a mi repositorio de GitHub! 
 
@@ -13,7 +13,7 @@ Este proyecto se enfoca en un **Análisis Exploratorio de Datos (EDA)** extenso 
 - **Fecha de extracción**: 5 de junio de 2024, un día después de la publicación oficial de los resultados.
 - **Herramientas utilizadas**: Python (Pandas, Matplotlib, Seaborn)
   
-## ![👨‍💻](https://img.icons8.com/fluency/48/000000/developer.png) **AUTOR:**
+## 👨‍💻**AUTOR:**
 Fernando Cabrera Barranzuela.
 
 Apasionado por la ciencia de datos, siempre en busca de nuevas tecnologías y conocimientos que permitan resolver problemas complejos y generar valor a partir de los datos.
@@ -21,7 +21,7 @@ Apasionado por la ciencia de datos, siempre en busca de nuevas tecnologías y co
 ## **LICENCIA**
 Este repositorio utiliza datos de uso público y está bajo la licencia MIT.
 
-## ![📞]**CONTACTO**:
+## 📞**CONTACTO**:
 Para consultas, colaboraciones o sugerencias, puedes contactarme a través de:
 - [LinkedIn](https://www.linkedin.com/in/fernando-cabrera-barranzuela/)
 - [GitHub](https://github.com/Ferx096)
