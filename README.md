@@ -5,7 +5,6 @@ En este espacio se encuentra la colección de mis proyectos públicos enfocados 
 
 ### ![🇮🇳](https://img.icons8.com/color/48/000000/india.png) **ESTRATEGIA DE VICTORIA EN ELECCIONES DE LA INDIA-2024:** [Ir al proyecto](https://github.com/Ferx096/PROYECTOS_DATA_SCIENCE/tree/master/ESTRATEGIA_VICTORIA_ELECTORAL_INDIA_2024)
 Este proyecto se enfoca en un **Análisis Exploratorio de Datos (EDA)** extenso y detallado, ya que sabemos que la raíz de todo modelo, predicción o trabajo de un científico de datos está en un excelente EDA. Para este proyecto, se usaron múltiples librerías de visualización y análisis, además de una revisión bibliográfica profunda, lo que fundamenta cada decisión en el proceso de limpieza y transformación de los datos.
-
 #### Descripción:
 - **Objetivo**: Analizar los resultados completos de las elecciones al Lok Sabha de 2024 en India.
 - **Datos**: Los datos se obtuvieron directamente del sitio web oficial de la Comisión Electoral de la India mediante un script automatizado.
@@ -13,7 +12,8 @@ Este proyecto se enfoca en un **Análisis Exploratorio de Datos (EDA)** extenso 
 - **Herramientas utilizadas**: Python (Pandas, Matplotlib, Seaborn)
   
 ## ![👨‍💻](https://img.icons8.com/fluency/48/000000/developer.png) **AUTOR:**
-Fernando Cabrera Barranzuela
+Fernando Cabrera Barranzuela.
+
 Apasionado por la ciencia de datos, siempre en busca de nuevas tecnologías y conocimientos que permitan resolver problemas complejos y generar valor a partir de los datos.
 
 ## **LICENCIA**
