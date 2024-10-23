@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clasificación de Tumores Cerebrales</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f7;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        h2 {
+            text-align: center;
+            color: #2b7a78;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .upload-box {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        input[type="file"] {
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        input[type="submit"] {
+            background-color: #3aafa9;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #2b7a78;
+        }
+
+        .result {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #def2f1;
+            border: 2px solid #3aafa9;
+            border-radius: 5px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+            border: 2px solid #3aafa9;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Clasificación de Tumores Cerebrales</h2>
+        <div class="upload-box">
+            <form action="/predict" method="POST" enctype="multipart/form-data" id="uploadForm">
+                <input type="file" name="file" accept="image/*" onchange="previewImage(event)">
+                <input type="submit" value="Subir Imagen y Clasificar">
+            </form>
+            <div class="result" id="predictionResult">
+                <!-- Aquí se mostrará el resultado -->
+            </div>
+            <img id="imagePreview" alt="Vista previa de la imagen" style="display:none;">
+        </div>
+    </div>
+
+    <script>
+        function previewImage(event) {
+            var reader = new FileReader();
+            reader.onload = function() {
+                var output = document.getElementById('imagePreview');
+                output.src = reader.result;
+                output.style.display = 'block';
+            }
+            reader.readAsDataURL(event.target.files[0]);
+        }
+
+        // Manejar el resultado de la predicción (esto requiere lógica de backend para mostrar el resultado)
+        document.getElementById('uploadForm').onsubmit = function(event) {
+            event.preventDefault(); // Evitar el envío automático del formulario
+            var formData = new FormData(this);
+            
+            fetch('/predict', {
+                method: 'POST',
+                body: formData
+            }).then(response => response.json())
+            .then(data => {
+                var resultElement = document.getElementById('predictionResult');
+                resultElement.textContent = `Resultado: ${data.prediction}`;
+            }).catch(error => {
+                console.error('Error:', error);
+            });
+        }
+    </script>
+</body>
+</html>
+>
+
