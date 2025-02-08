@@ -12,7 +12,8 @@ Se ha desarrollado una **API con Flask** que permite a los usuarios subir imáge
 - **`app.py`**: Código de la API desarrollada en Flask.
 - **`templates/index.html`**: Archivos HTML y CSS para la interfaz web.
 
-### [Despliegue del proyecto:](https://github.com/Ferx096/brain_tumor_detector/blob/master/images/brain_tumor.mp4)
+### Despliegue del proyecto:
+[![Ver video](https://github.com/Ferx096/brain_tumor_detector/blob/master/images/despliegue_brain_tumor.png)](https://github.com/Ferx096/brain_tumor_detector/blob/master/images/brain_tumor.mp4)
 
 
 ## 👨‍💻 **AUTOR:**
